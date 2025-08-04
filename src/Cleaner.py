@@ -1,5 +1,5 @@
 from src.LoadFile import load_file
-class Cleaner():
+class Cleaner:
     def __init__(self):
         self.df = load_file()
     def Toupper(self):
@@ -9,7 +9,5 @@ class Cleaner():
     def delete_non_biased(self):
         self.df = self.df[self.df['Biased'].notna()]
         return self.df
-clean_df = Cleaner()
-clean_df.Toupper()
-clean_df.delete_non_biased()
-print(clean_df.df.head())
+    def Export_a_new_file(self):
+        self.df.to_csv('../data/tweets_dataset_cleaned.csv', index=False)
