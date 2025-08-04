@@ -17,5 +17,5 @@ class WritesToJson:
         with open('../data/results.json','a') as json_file:
             json.dump(result,json_file,indent=4)
 
-writes = WritesToJson()
-writes.write_to_json()
+# writes = WritesToJson()
+# writes.write_to_json()

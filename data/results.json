@@ -1,0 +1,79 @@
+{
+    "total_tweets :": {
+        "total_tweets": {
+            "antisemitic": 1250,
+            "non antisemitic": 5691,
+            "total": 6941
+        }
+    },
+    "average_length :": {
+        "average_length": {
+            "antisemitic": 23,
+            "non_antisemitic": 28,
+            "total": 27
+        }
+    },
+    "longest_three_tweets :": {
+        "longest_3_tweets": {
+            "antisemitic": [
+                "6088    @OnkelFester @SMoistpit @Melanie33720945 @shi_...\n5987    @AnneOLe43078812 @bervamrojavi @kppotatoes @ma...\n852     @SyrianEcho @nissatal @Ezra_HaLevi @M0sstr00pe...\nName: Text, dtype: object"
+            ],
+            "non_antisetic": [
+                "3659    @BrasasEn @openeysdown @Steven495 @Talal9409 @...\n3926    @Leylakhalid22 @SimonVrouwe @JudgeFudge5 @YB12...\n5798    @BlueGreenberg @AdrienWolf13 @dlsmith0817 @Dec...\nName: Text, dtype: object"
+            ]
+        }
+    },
+    "common_words :": {
+        "common_words": [
+            [
+                [
+                    "the",
+                    7483
+                ],
+                [
+                    "to",
+                    4466
+                ],
+                [
+                    "of",
+                    4371
+                ],
+                [
+                    "and",
+                    3569
+                ],
+                [
+                    "Jews",
+                    3373
+                ],
+                [
+                    "in",
+                    3229
+                ],
+                [
+                    "a",
+                    2886
+                ],
+                [
+                    "is",
+                    2378
+                ],
+                [
+                    "for",
+                    1669
+                ],
+                [
+                    "are",
+                    1483
+                ]
+            ]
+        ]
+    },
+    "uppercase_words :": {
+        "uppercase_words": {
+            "antisemitic": "0        3\n1        1\n2        0\n3        7\n4        2\n        ..\n6936     0\n6937    18\n6938     0\n6939     0\n6940     1\nName: sum_upper, Length: 6941, dtype: int64",
+            "non_antiset(ic": "0        3\n1        1\n2        0\n3        7\n4        2\n        ..\n6936     0\n6937    18\n6938     0\n6939     0\n6940     1\nName: sum_upper, Length: 6941, dtype: int64",
+            "total": "0        3\n1        1\n2        0\n3        7\n4        2\n        ..\n6936     0\n6937    18\n6938     0\n6939     0\n6940     1\nName: sum_upper, Length: 6941, dtype: int64"
+        }
+    }
+}

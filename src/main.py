@@ -1,12 +1,17 @@
 from src.Cleaner import Cleaner
-
+from src.LoadFile import load_file
+from src.Writes_to_json import WritesToJson
 
 def option():
     option = input('Please enter your option: ')
     match(option):
-        case  '1':
+        case'1':
+            df = load_file()
+            print(df)
             return
-        case '2':
+        case  '2':
+            writes = WritesToJson()
+            writes.write_to_json()
             return
         case '3':
             clean = Cleaner()
